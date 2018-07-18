@@ -16,6 +16,7 @@ public class ZuulApplication {
 		SpringApplication.run(ZuulApplication.class, args);
 	}
 
+	//过滤器
 	@Bean
 	public MyFilter accessFilter() {
 		return new MyFilter();
